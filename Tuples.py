@@ -1,2 +1,4 @@
-grade=("A", "B", "C", "A", "A")
-print(grade.count("A"))
+grade=["A", "B", "C", "A", "A"]
+grade.sort()
+print(grade)
+
