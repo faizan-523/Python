@@ -23,3 +23,10 @@ def multiply(x, y):
 result = multiply(num1, num2)
 print("The product is:", result)
 
+#There are 2 types of functions:
+#Built-in functions: These are functions that are already defined in Python, like print(), input(), len(), etc.
+#User-defined functions: These are functions that you define yourself, like the sum() and multiply
+
+Students = ["Alice", "Bob", "Charlie"]
+print(len(Students))  # This will print the number of students in the list
+
