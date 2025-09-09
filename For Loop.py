@@ -1,4 +1,5 @@
-print("For Loop in Python")
+#For Loop in Python
+# A for loop is used for iterating over a sequence (like a list, tuple, dictionary, set, or string).
 
 print("Printing table of number which user will enter")
 
