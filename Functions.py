@@ -36,3 +36,12 @@ def Printlist(list):
 
 Printlist(Students) # This will print each student's name in the list
 
+n=int(input("Enter a number to find its factorial: "))
+fact=1
+def factorial(n):
+    for i in range(1, n+1):
+        fact=fact*i
+    return fact
+print("The factorial of", n, "is", factorial(n)) # it will print the factorial of the number
+
+
