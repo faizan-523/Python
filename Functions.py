@@ -15,3 +15,11 @@ def hello():
     print("Hello, World!")
 
 hello() #it will print Hello, World! because we called the function
+
+# Functions can also return values
+def multiply(x, y):
+    return x * y
+
+result = multiply(num1, num2)
+print("The product is:", result)
+
