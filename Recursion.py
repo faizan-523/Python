@@ -11,3 +11,13 @@ def factorial(n):
 
 num = int(input("Enter a number to find its factorial: "))
 print("The factorial of", num, "is", factorial(num)) # it will print the factorial of the number
+
+a= int(input("Enter a number: "))
+
+def sum (a):
+    if a == 0:
+        return 0
+    else:
+        return a + sum(a - 1)
+
+print("The sum of first", a, "natural numbers is", sum(a)) # it will print the sum of first n natural numbers
