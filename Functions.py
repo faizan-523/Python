@@ -27,6 +27,12 @@ print("The product is:", result)
 #Built-in functions: These are functions that are already defined in Python, like print(), input(), len(), etc.
 #User-defined functions: These are functions that you define yourself, like the sum() and multiply
 
-Students = ["Alice", "Bob", "Charlie"]
+Students = ["Faizan", "Waleed", "Ali", "Ahmed"]
 print(len(Students))  # This will print the number of students in the list
+
+def Printlist(list):
+    for item in list:
+        print(item)
+
+Printlist(Students) # This will print each student's name in the list
 
