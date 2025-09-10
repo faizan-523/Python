@@ -1,5 +1,5 @@
 Hello i am Faizan
 I am doing my python practice and performing simple tasks
- Now i am doing file handling in python
+
  Now i am doing file handling in python
  Python is great language
