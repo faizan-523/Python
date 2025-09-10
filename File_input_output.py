@@ -1,0 +1,18 @@
+#File input and output in Python
+#Opening a file
+file= open('demo.txt', 'r')  # 'r' for read mode
+
+#Reading from a file
+line1 = file.readline()
+print(line1) #it print 1st line
+data = file.read()
+print(data) #it print remaining lines
+print(type(data)) #it print data type
+print(len(data)) #it print length of data
+
+#Once we read all lines, the cursor is at the end of the file 
+#After reading, if we try to read again, it will return an empty string
+
+
+
+file.close()
