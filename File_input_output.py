@@ -31,3 +31,9 @@ print(value)
 
 file.write("\n Python is great language")
 file.close()
+
+#Using 'with' statement to handle files
+#It automatically takes care of closing the file
+with open('demo.txt', 'r') as file:
+    content = file.read()
+    print(content)
